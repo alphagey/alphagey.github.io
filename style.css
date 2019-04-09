@@ -4,3 +4,13 @@
 	font-weight: bold;
 	text-decoration: none;
 }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 99%;
+}
+
+.sticky + .topnav {
+	padding-top: 10000000000px;
+}
