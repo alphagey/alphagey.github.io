@@ -9,6 +9,7 @@
     overflow: hidden;
 	background-color: black;
 }
+
 .sticky {
 	position: fixed;
 	top: 0;
@@ -30,6 +31,6 @@
 }
 
 .nav a:hover {
-    background-color: blue;
+    background-color: #00BCD4;
     color: black;
 }
