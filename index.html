@@ -9,7 +9,7 @@
   <body>
     <div>
       <p style="text-align: center">
-        <a href= "index.html" id= "headline" class ="header" style="font-size:10vw;"> Alphagey </a>
+        <a href= "index.html" id= "headline" class ="header" style="font-size:5vw;"> Alphagey </a>
       </p>
     </div>
     <br>
@@ -19,6 +19,19 @@
       <br> <br>
       <a href = "USACORepls.html"> USACO Codes </a>
     </p>
-    <script src="script.js"></script>
+    <script src="script.js"> 
+		  window.onscroll = function() {myFunction()};
+		
+		  var head = document.getElementById("myHeader");
+		  var sticky  = header.offsetTop;
+		
+		  function myFunction() {
+		    if (window.pageYOffset > sticky) {
+		  	header.classList.add("sticky");
+		    } else {
+	  	  	header.classList.remove("sticky");
+  		  }
+	  	}
+		</script>
   </body>
 </html>
