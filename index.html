@@ -12,7 +12,7 @@
         <a href= "index.html" id= "headline" class ="headl" style="font-size:5vw;"> Alphagey </a>
       </p>
     </div>
-		<div class="nav" id="navigation">
+		<div class="nav" id="myHeader">
 			<a href="index.html"> Home </a>
   		<a href="AboutMe.html"> About Me </a>
   		<a href="USACORepls.html"> USACO Codes </a>
@@ -26,14 +26,14 @@
     <script src="script.js"> 
 			window.onscroll = function() {myFunction()};
 		
-			var navigate = document.getElementById("navigation");
-			var sticky  = navigate.offsetTop;
+			var header = document.getElementById("myHeader");
+			var sticky  = header.offsetTop;
 		
 			function myFunction() {
 	  		if (window.pageYOffset > sticky) {
-					navigate.classList.add("sticky");
+					header.classList.add("sticky");
 	  		} else {
-	  			navigate.classList.remove("sticky");
+	  			header.classList.remove("sticky");
   	  	}
 			}
      </script>
