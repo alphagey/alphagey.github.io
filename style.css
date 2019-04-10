@@ -36,7 +36,11 @@
 }
 -->
 
-body	{ width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-serif; }
+body { width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-serif; }
+
+#textBody {
+	font-family:Calibri, sans-serif; 	
+}
 
 #navigation{
 	border:1px solid #ccc;
