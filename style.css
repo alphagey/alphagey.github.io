@@ -1,14 +1,9 @@
 #headline{
-	color:#0eb2be;
+	color:#8BC34A;
 	font-family: "Garamond", Times, serif;
 	font-weight: bold;
 	text-decoration: none;
 }
-
-<!-- .nav {
-    overflow: hidden;
-	background-color: black;
-} -->
 
 .sticky {
 	position: fixed;
@@ -20,21 +15,15 @@
 	padding-top: 10000000000px;
  }
 
-<!-- .nav a {
+.nav a {
     float: center;
     display: block;
-    color: white;
+    color: #c00;
     text-align: center;
     padding: 16px;
     text-decoration: none;
   
 }
-
-.nav a:hover {
-    background-color: #00BCD4;
-    color: black;
-}
--->
 
 body { width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-serif; }
 
@@ -48,7 +37,7 @@ body { width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-se
 }
 
 #navigation li{
-	display:inline;
+	display:inline
 }
 
 #navigation a{
