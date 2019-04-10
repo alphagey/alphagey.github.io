@@ -18,7 +18,7 @@
 	  		<li><a href="USACORepls.html"> USACO Codes </a></li>
 		</ul>
     <br>
-	  <marquee id="ticker"> *This website is still in development* </marquee>
+	  <marquee class="tic" id="ticker"> *This website is still in development* </marquee>
     <br>
     <p id="textBody">
 			text
@@ -28,13 +28,16 @@
 			window.onscroll = function() {myFunction()};
 		
 			var navigate = document.getElementById("navigation");
+			var tick = document.getElementById("ticker");
 			var sticky  = navigate.offsetTop;
 		
 			function myFunction() {
 	  		if (window.pageYOffset > sticky) {
-					navigate.classList.add("sticky");
+				navigate.classList.add("sticky");
+				ticker.classList.add("vanish");
 	  		} else {
 	  			navigate.classList.remove("sticky");
+				ticker.classList.remove("vanish");
   	  	}
 			}
      </script>
