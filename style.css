@@ -21,8 +21,8 @@
  }
 
 .nav a {
-    float: none;
-    display: inline;
+    float: center;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 16px;
