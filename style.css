@@ -38,7 +38,7 @@
 
 body	{ width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-serif; }
 
-#nav{
+#navigation{
 	border:1px solid #ccc;
 	border-width:1px 0;
 	list-style:none;
@@ -47,11 +47,11 @@ body	{ width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-se
 	text-align:center;
 }
 
-#nav li{
+#navigation li{
 	display:inline;
 }
 
-#nav a{
+#navigation a{
 	display:inline-block;
 	padding:10px;
 }
