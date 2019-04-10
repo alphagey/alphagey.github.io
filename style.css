@@ -16,6 +16,10 @@
 	width: 80%;
   }
 
+.vanish {
+	visibility: hidden;
+}
+
 .sticky + .nav {
 	padding-top: 10000000000px;
  }
