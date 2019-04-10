@@ -1,5 +1,5 @@
 #headline {
-	color:#8BC34A;
+	color:#c00;
 	font-family: "Garamond", Times, serif;
 	font-weight: bold;
 	text-decoration: none;
@@ -7,7 +7,7 @@
 
 #ticker {
 	font-weight: bold;
-	color:#faff00
+	color:#c00
 }
 
 .sticky {
