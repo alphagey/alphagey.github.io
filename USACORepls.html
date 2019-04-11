@@ -7,6 +7,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <ul class="nav" id="navigation">
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="AboutMe.html"> About Me </a></li>
+	  		<li><a href="USACORepls.html"> USACO Codes </a></li>
+		</ul>
+    <br>
     <b> USACO Repls </b>
     <br>
     <p>
@@ -14,6 +20,20 @@
       - <a href="https://repl.it/@IDS47/FridayThe13th" target="_blank">Friday The 13th</a> <br>
       - <a href="https://repl.it/@IDS47/Shell-Game-C" target="_blank">Shell Game</a> <br>
     </p>
-    <script src="script.js"></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+		
+			var navigate = document.getElementById("navigation");
+			var tick = document.getElementById("ticker");
+			var sticky  = navigate.offsetTop;
+		
+			function myFunction() {
+	  		if (window.pageYOffset > sticky) {
+				navigate.classList.add("sticky");
+				ticker.classList.add("vanish");
+	  		} else {
+	  			navigate.classList.remove("sticky");
+				ticker.classList.remove("vanish");
+    </script>
   </body>
 </html>
