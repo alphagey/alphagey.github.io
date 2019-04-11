@@ -34,18 +34,12 @@
   
 }
 
-body {padding:50px 0; margin:0 auto; margin-left:auto; margin-right:auto; font-family:Calibri, sans-serif; }
-
-#textBody {
-	margin-left:5%;
-}
+body {padding:50px 0; margin:0 auto; margin-left:5%; margin-right:5%; font-family:Calibri, sans-serif;}
 
 #navigation{
 	border:1px solid #ccc;
 	border-width:1px 0;
 	list-style:none;
-	margin-left:10%;
-	margin-right:10%;
 	padding:0;
 	text-align:center;
 	background:white;
