@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <a href= "team.html" id= "headline" class ="headl"><img style="text-align: center" src="https://i.pinimg.com/originals/3d/fe/fc/3dfefc8616017482fbc52f5aa2945cf9.png">
+      </img></a>
+    </div>
+		<ul class="nav" id="navigation">
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="AboutMe.html"> About Me </a></li>
+	  		<li><a href="USACORepls.html"> USACO Codes </a></li>
+  </ul>
+		<script> 
+			window.onscroll = function() {myFunction()};
+		
+			var navigate = document.getElementById("navigation");
+			var tick = document.getElementById("ticker");
+			var sticky  = navigate.offsetTop;
+		
+			function myFunction() {
+	  		if (window.pageYOffset > sticky) {
+				navigate.classList.add("sticky");
+				ticker.classList.add("vanish");
+	  		} else {
+	  			navigate.classList.remove("sticky");
+				ticker.classList.remove("vanish");
+  	  	}
+			}
+     </script>
+  </body>
+</html>
