@@ -1,2 +1,2 @@
-# alphagey.github.io
+# ishaands.github.io
 an index/master-page/home for most of my projects/websites
