@@ -1,29 +1,62 @@
 <!DOCTYPE html>
+<!-- Improvement notes 
+- Light and Dark mode (start as dark)
+- Outline/underline animation for Title Name
+
+
+
+-->
+
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div>
-      <p style="text-align: center">
-        <a href= "index.html" id= "headline" class ="headl" style="font-size:5vw;"> Ishaan Salhotra </a>
-      </p>
-    </div>
-		<ul class="nav" id="navigation">
-			<li><a href="index.html"> Home </a></li>
-			<li><a href="AboutMe.html"> About Me </a></li>
-	  		<li><a href="team.html"> Team </a></li>
-		</ul>
+	<!-- Header -->
+	<header>
+		<div class="container">
+		  	<!-- <a href= "index.html" id= "headline" style="font-size:2.5vw;" alt="name" class="logo"> Ishaan Salhotra </a> -->
+		  	<svg width="27em" height="4em">
+				<a href="#"><text x="0%" y="1.2em">
+			  		Ishaan Salhotra
+				</text></a>
+		  	</svg>
+		  	<nav>
+				<ul>
+			  		<li><a href="index.html">Home</a></li>
+			  		<li><a href="AboutMe.html">About Me</a></li>
+			  		<li><a href="team.html">Team</a></li>
+				</ul>
+			</nav>
+		</div>
+	 </header>
     <br>
 	  <marquee class="tic" id="ticker"> *Work In Progress* </marquee>
     <br>
-    <p id="textBody">
+
+	<!-- Body -->
+	
+
+	
+
+	<!-- Footer -->
+	<div class="button-box">
+		<a href="https://github.com/ishaands" class="neon-button"> Github <i class="fa fa-github"></i> </a>
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="https://www.instagram.com/ishaan.salhotra/" class="neon-button-insta"> Instagram <i class="fa fa-instagram"></i> </a>
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="https://replit.com/@IDS47" class="neon-button-replit"> Repl.it <i class="fa fa-code"></i> </a>
+		<br><br><br> 
+		<a class="styleless-links" href="https://github.com/ishaands/ishaands.github.io"><p style="color: whitesmoke"> Created from scratch using HTML/CSS </p></a>
+	</div>
+	
+
+    <!-- <p id="textBody">
 			text
 			<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text<br>text
-    </p>
+	</p> -->
 		<script> 
 			window.onscroll = function() {myFunction()};
 		
