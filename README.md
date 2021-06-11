@@ -1,2 +1,2 @@
 # ishaands.github.io
-an index/master-page/home for most of my projects/websites
+A personal website for my projects and I
